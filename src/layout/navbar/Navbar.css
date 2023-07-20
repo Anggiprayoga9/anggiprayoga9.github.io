@@ -1,0 +1,52 @@
+.navbar {
+  box-shadow: 0px 0px 20px -2px #ff4777;
+}
+
+.navLink ul li a {
+  transition: 0.5s;
+  font-weight: 500;
+}
+
+.navLink ul li a:hover {
+  color: #ff4777;
+}
+
+nav.navLink ul li a {
+  position: relative;
+}
+
+nav.navLink ul li a:after {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #ff4777;
+  height: 1px;
+}
+
+nav.navLink ul li a:hover:after {
+  width: 100%;
+}
+
+nav.navLink ul li.active,
+nav.navLink ul li a.active
+{
+color: #ff4777;
+}
+
+nav.navLink ul li a.active::after {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  content: '.';
+  color: transparent;
+  background: #ff4777;
+  height: 1px;
+}

@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html {
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #444444;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fefefe;
+  text-transform: uppercase;
+}
+
+.subTitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff4777;
+  margin-bottom: -20px;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: #fefefe;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fefefe;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fefefe;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fefefe;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 200;
+  color: #fefefe;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: 100;
+  color: #fefefe;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-align: justify;
+  color: #fefefe;
+}
+
+.box_shadow {
+  padding: 18px 25px;
+  border-radius: 7px;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  color: #fefefe;
+  background: #444444;
+  /* box-shadow: 0px 0px 4px 0px #fefefe; */
+  box-shadow: 4px 4px 8px #2c2c2c, -1px -1px 6px #565656;
+}
+
+.box_shadow:hover {
+  background: #262626;
+  color: #ff4777;
+  transform: translateY(-5px);
+}
+
+.box_shadow2 {
+  padding: 18px 25px;
+  border-radius: 7px;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  color: #fefefe;
+  background: #444444;
+  box-shadow: 4px 4px 8px #2c2c2c, -4px -4px 8px #444444;
+}
+
+.box_shadow2:hover {
+  background: #262626;
+  color: #ff4777;
+  transform: translateY(-5px);
+}
+
+.btn_shadow {
+  padding: 20px;
+  border-radius: 6px;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  color: #fefefe;
+  background: transparent;
+  box-shadow: 1px -2px 8px #ff4777;
+}
+
+.btn_shadow:hover {
+  background: #ff4777;
+  color: #fefefe;
+  transform: translateY(-5px);
+}
+
+@layer components {
+  .resumeLi {
+    @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer duration-300 items-center border-[1px];
+  }
 }

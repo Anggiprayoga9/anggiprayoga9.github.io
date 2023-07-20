@@ -1,0 +1,7 @@
+.hero .kanan {
+    padding: 25px 10px 10px 10px;
+    border-radius: 7px;
+    transition: 0.5s all ease;
+    background: #444444;
+    box-shadow: 0px 0px 10px 0px #ff4777;
+}
