@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a91ba022.css",
+    "main.js": "/static/js/main.547bff45.js",
+    "static/media/logo-aga.png": "/static/media/logo-aga.d1361f0eefb2c27348d2.png",
+    "static/media/project5.png": "/static/media/project5.969765a6e73177d1b1bb.png",
+    "static/media/project6.png": "/static/media/project6.a0ac1a7a6859b42918b8.png",
+    "static/media/project3.png": "/static/media/project3.5312bd3616f020088ffd.png",
+    "static/media/anggi.png": "/static/media/anggi.08452807483f7ea4cd83.png",
+    "static/media/project2.png": "/static/media/project2.0ec39f8c7bb98b0b67ed.png",
+    "static/media/CV-AnggiPrayoga.pdf": "/static/media/CV-AnggiPrayoga.981c2f1d1dd062d8fa8a.pdf",
+    "static/media/project1.png": "/static/media/project1.a6b7d43d0ac44a0541df.png",
+    "static/media/project4.png": "/static/media/project4.a12983614c4567fb86ee.png",
+    "index.html": "/index.html",
+    "main.a91ba022.css.map": "/static/css/main.a91ba022.css.map",
+    "main.547bff45.js.map": "/static/js/main.547bff45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a91ba022.css",
+    "static/js/main.547bff45.js"
+  ]
+}
