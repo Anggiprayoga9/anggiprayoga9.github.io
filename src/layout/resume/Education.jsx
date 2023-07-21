@@ -11,11 +11,11 @@ const Education = () => {
     >
       {/* part one */}
       <div>
-        <div className="font-titleFont flex flex-col gap-4">
+        <div className="flex flex-col gap-4">
           <p className="text-sm text-[#ff4777] tracking-[4px]">2003 - 2023</p>
           <h2 className="text-3xl mdl:text-4xl font-bold">Pendidikan</h2>
         </div>
-        <div className="mt-4 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-10 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="SDN 1 Sukamahi"
             subTitle="Sukamahi, Tasikmalaya (2003 - 2009)"

@@ -11,7 +11,7 @@ const Card = (props) => {
 
     return (
         <div className='w-full'>
-            <div className="box_shadow2 grid grid-flow-row">
+            <div className="box_shadow2 grid grid-flow-row" onClick={toggleModal}>
                 <div className='w-[100%] h-[270px]'>
                     <img src={props.image} alt="" onClick={toggleModal} className='object-contain w-full h-60' />
                 </div>
@@ -26,17 +26,17 @@ const Card = (props) => {
             {modal && (
                 <div className="modal mx-auto flex">
                     <div onClick={toggleModal} className="overlay -z-10"></div>
-                    <div className="modal-body w-full items-center flex justify-center">
-                        <div className="modal-content shadow-xl absolute rounded-lg lg:h-80 h-[80%] overflow-y-scroll md:overflow-hidden">
+                    <div className="modal-body w-full flex items-center  justify-center">
+                        <div className="modal-content shadow-xl absolute rounded-lg flex items-center lg:h-96 h-[80%] overflow-y-scroll md:overflow-hidden">
                             <div className='w-full flex flex-col lg:flex-row gap-6 '>
-                                <div className='w-full lg:w-7/12 flex justify-start'>
-                                    <div className="w-full">
-                                        <ImageViewer>
-                                            <img src={props.image} alt="" className='object-contain w-full h-44 md:h-72' />
-                                        </ImageViewer>
-                                    </div>
+                                <div className='w-full lg:w-7/12 flex justify-center'>
+                                    <ImageViewer>
+                                        <img src={props.image} alt="" className='object-contain w-full h-56 md:h-72 max-h-80' />
+                                    </ImageViewer>
                                 </div>
-                                <div className='w-full lg:w-5/12'>
+
+                                <div className='w-full bg-secondColor rounded-lg shadow-lg p-10'>
+                                <div className='w-full lg:w-10/12'>
                                     <div className="w-full grid grid-flow-row gap-3">
                                         <h6>Detail Project</h6>
                                         <h1 className='text-xl md:text-3xl'>{props.title}</h1>
@@ -50,9 +50,15 @@ const Card = (props) => {
                                     </div>
                                 </div>
                                 <div className='w-[5%]'>
-                                    <button className='top-[5%] right-[10px] sm:top-[5%] sm:right-[3%] md:top-[96px] md:right-[50px] lg:top-[30%] lg:right-[6%] w-24 btn_close' onClick={toggleModal}>
+                                    <button className='top-[5%] right-[10px] 
+                                    sm:top-[5%] sm:right-[4%] 
+                                    md:top-[98px] md:right-[52px] 
+                                    lg:top-[35%] lg:right-[7%] w-24 btn_close
+                                    hover:bg-[#444444] hover:md:bg-white' 
+                                    onClick={toggleModal}>
                                         <i className='flex justify-center font-bold text-4xl'><AiOutlineCloseSquare /></i>
                                     </button>
+                                </div>
                                 </div>
                             </div>
                         </div>
