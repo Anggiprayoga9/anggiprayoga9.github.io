@@ -35,7 +35,7 @@ const Card = (props) => {
                                     </ImageViewer>
                                 </div>
 
-                                <div className='w-full bg-secondColor rounded-lg shadow-lg p-10'>
+                                <div className='w-full bg-secondColor rounded-lg shadow-lg p-5 md:p-10'>
                                 <div className='w-full lg:w-10/12'>
                                     <div className="w-full grid grid-flow-row gap-3">
                                         <h6>Detail Project</h6>
