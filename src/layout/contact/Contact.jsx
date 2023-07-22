@@ -20,6 +20,22 @@ const Contact = () => {
                         </p>
                         <form action="#" className='space-y-8'>
                             <div>
+                                <label htmlFor="name"
+                                    className="block mb-2 text-sm font-medium text-firstColor ">Your name
+                                </label>
+                                <input type="text" id="name"
+                                    className="shadow-sm
+                                bg-gray-50 border
+                                border-gray-300
+                                text-secondColor
+                                text-sm rounded-lg 
+                                focus:ring-primary-500 
+                                focus:border-primary-500 
+                                block w-full p-2.5 "
+                                    placeholder="Your name"
+                                    required />
+                            </div>
+                            <div>
                                 <label htmlFor="email"
                                     className="block mb-2 text-sm font-medium text-firstColor ">Your email
                                 </label>
@@ -27,7 +43,7 @@ const Contact = () => {
                                     className="shadow-sm
                                 bg-gray-50 border
                                 border-gray-300
-                                text-firstColor 
+                                text-secondColor
                                 text-sm rounded-lg 
                                 focus:ring-primary-500 
                                 focus:border-primary-500 
@@ -41,7 +57,7 @@ const Contact = () => {
                                 </label>
                                 <input type="text" id="subject"
                                     className="block p-3 w-full 
-                            text-sm text-firstColor 
+                            text-sm text-secondColor 
                             bg-gray-50 rounded-lg border 
                             border-gray-300 shadow-sm 
                             focus:ring-primary-500 
@@ -55,7 +71,7 @@ const Contact = () => {
                                 </label>
                                 <textarea id="message" rows="6"
                                     className="block p-2.5 w-full text-sm
-                                text-firstColor bg-gray-50 rounded-lg 
+                                text-secondColor bg-gray-50 rounded-lg 
                                 shadow-sm border border-gray-300
                                 focus:ring-primary-500 focus:border-primary-500"
                                     placeholder="Leave a comment...">
@@ -68,7 +84,7 @@ const Contact = () => {
                             text-thirdColor hover:text-white 
                             rounded-lg bg-primary-700 sm:w-fit 
                             hover:bg-thirdColor focus:ring-4 
-                            focus:outline-none focus:ring-primary-300 ">Send message
+                            focus:outline-none focus:ring-primary-300 ">Send Message
                             </button>
                         </form>
 
