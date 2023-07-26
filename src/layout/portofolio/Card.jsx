@@ -27,11 +27,11 @@ const Card = (props) => {
                 <div className="modal mx-auto flex">
                     <div onClick={toggleModal} className="overlay -z-10"></div>
                     <div className="modal-body w-full flex items-center  justify-center">
-                        <div className="modal-content shadow-xl absolute rounded-lg flex items-center lg:h-96 h-[75%] overflow-y-scroll md:overflow-hidden">
-                            <div className='w-full flex flex-col lg:flex-row gap-6 '>
+                        <div className="modal-content shadow-xl fixed rounded-lg flex items-center ">
+                            <div className='w-full flex flex-col lg:flex-row gap-4 modal-overflow '>
                                 <div className='w-full lg:w-7/12 flex justify-center items-center'>
                                     <ImageViewer>
-                                        <img src={props.image} alt="" className='object-contain w-full h-56 md:h-72 max-h-80' />
+                                        <img src={props.image} alt="" className='object-contain w-full h-40 sm:h-56 md:h-72 max-h-80' />
                                     </ImageViewer>
                                 </div>
 
