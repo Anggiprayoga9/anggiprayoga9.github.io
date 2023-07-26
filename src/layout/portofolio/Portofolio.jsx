@@ -23,6 +23,7 @@ const Portofolio = () => {
                 image={value.image}
                 category={value.category}
                 title={value.title}
+                desc={value.desc}
               />
 
             })}
