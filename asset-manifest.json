@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.54b32aaf.css",
-    "main.js": "/static/js/main.4e1ea6c7.js",
+    "main.css": "/static/css/main.386d633d.css",
+    "main.js": "/static/js/main.8c1d4182.js",
     "static/media/logo-aga.png": "/static/media/logo-aga.d1361f0eefb2c27348d2.png",
     "static/media/project5.png": "/static/media/project5.969765a6e73177d1b1bb.png",
     "static/media/project6.png": "/static/media/project6.a0ac1a7a6859b42918b8.png",
@@ -12,11 +12,11 @@
     "static/media/project1.png": "/static/media/project1.a6b7d43d0ac44a0541df.png",
     "static/media/project4.png": "/static/media/project4.a12983614c4567fb86ee.png",
     "index.html": "/index.html",
-    "main.54b32aaf.css.map": "/static/css/main.54b32aaf.css.map",
-    "main.4e1ea6c7.js.map": "/static/js/main.4e1ea6c7.js.map"
+    "main.386d633d.css.map": "/static/css/main.386d633d.css.map",
+    "main.8c1d4182.js.map": "/static/js/main.8c1d4182.js.map"
   },
   "entrypoints": [
-    "static/css/main.54b32aaf.css",
-    "static/js/main.4e1ea6c7.js"
+    "static/css/main.386d633d.css",
+    "static/js/main.8c1d4182.js"
   ]
 }
