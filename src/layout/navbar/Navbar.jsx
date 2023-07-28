@@ -18,7 +18,12 @@ const Navbar = () => {
     { id: 3, i: <BiSolidCollection />, text: "Portofolio", linkPage: "#portofolio", sect: "section3" },
     { id: 4, i: <BiSolidPhone />, text: "Contact", linkPage: "#contact", sect: "section4" }
   ];
-  const [activeId, setActiveId] = useState();
+  const [activeId, setActiveId] = useState('section1');
+  
+  const handleItemClick = (item) => {
+    setActiveId(item);
+  };
+
 
   // const [activeSection, setActiveSection] = useState(null);
   const observer = useRef(null);
@@ -57,7 +62,7 @@ const Navbar = () => {
         <nav className='w-full navLink'>
           <ul className='list-none flex justify-evenly items-center md:justify-end md:gap-10'>
             {values.map((val, index) => (
-              <li key={index} onClick={() => setActiveId(val.id)}>
+              <li key={index} onClick={() => handleItemClick(val.id)}>
                 <a href={val.linkPage} className={activeId === val.sect ? 'active flex flex-col items-center' : 'flex flex-col items-center'}>
                   <i className='nav-icon md:hidden text-3xl'>{val.i}</i>
                   <span className='nav-name md:text-sm text-xs'>{val.text}</span>
