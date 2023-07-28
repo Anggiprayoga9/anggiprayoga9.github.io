@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.49aace9b.css",
-    "main.js": "/static/js/main.baf817db.js",
+    "main.js": "/static/js/main.65763d65.js",
     "static/media/logo-aga.png": "/static/media/logo-aga.d1361f0eefb2c27348d2.png",
     "static/media/project5.png": "/static/media/project5.969765a6e73177d1b1bb.png",
     "static/media/project6.png": "/static/media/project6.a0ac1a7a6859b42918b8.png",
@@ -13,10 +13,10 @@
     "static/media/project4.png": "/static/media/project4.a12983614c4567fb86ee.png",
     "index.html": "/index.html",
     "main.49aace9b.css.map": "/static/css/main.49aace9b.css.map",
-    "main.baf817db.js.map": "/static/js/main.baf817db.js.map"
+    "main.65763d65.js.map": "/static/js/main.65763d65.js.map"
   },
   "entrypoints": [
     "static/css/main.49aace9b.css",
-    "static/js/main.baf817db.js"
+    "static/js/main.65763d65.js"
   ]
 }
