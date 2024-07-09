@@ -4,29 +4,30 @@ import project3 from "../../assets/img/project/project3.png"
 import project4 from "../../assets/img/project/project4.png"
 import project5 from "../../assets/img/project/project5.png"
 import project6 from "../../assets/img/project/project6.png"
+import project7 from "../../assets/img/project/project7.jpg"
 
   const DataPorto = [
     {
       id: 1,
-      category: "WEB APPLICATION",
+      category: "Aplikasi Web",
       totalLike: "600",
-      title: "Front End Buku Tamu SMKN 1 Ciamis",
-      desc: "Project Front End Buku Tamu ini dibangun menggunakan Sneat - Free Bootstrap 5 Template dan " + 
+      title: "Buku Tamu SMKN 1 Ciamis",
+      desc: "Project Front End Buku Tamu ini dibangun menggunakan Sneat - Free Bootstrap 5 Template dan " +
       "Framework CodeIgniter 3 sebagai salah satu kebutuhan pada saat magang di SMKN 1 Ciamis. " +
-      "Pada project ini memiliki fitur untuk mengambil foto tamu dan membuat tanda tangan tamu, yang nantinya dimasukan kedalam master data tamu dan daftar kunjungan tamu. " + 
+      "Pada aplikasi ini disediakan fitur untuk mengambil foto tamu dan membuat tanda tangan tamu yang berkunjung, yang nantinya dimasukan kedalam master data tamu dan daftar kunjungan tamu. " +
       "Selain dari fitur diatas, memiliki fitur tambahan pemeberian rating untuk mengecek kepuasan tamu terhadap pelayanan yang diterima.",
       image: project1,
     },
     {
       id: 2,
-      category: "WEB APPLICATION",
+      category: "Aplikasi Web",
       totalLike: "750",
-      title: "Back End Buku Tamu SMKN 1 Ciamis",
-      desc: "Project Back End Buku Tamu ini dibangun menggunakan Sneat - Free Bootstrap 5 Template dan " +
+      title: "Buku Tamu SMKN 1 Ciamis",
+      desc: "Dashboard Admin Buku Tamu ini dibangun menggunakan Sneat - Free Bootstrap 5 Template dan " +
       "Framework CodeIgniter 3 sebagai salah satu kebutuhan pada saat magang di SMKN 1 Ciamis. " +
-      "Dimana didalamnya memiliki fitur, grafik kunjungan tamu dan memunculkan status tamu yang sudah berkunjung pada dashboard. " + 
-      "Kemudian terdapat fitur berita acara penerimaan tamu, master data tamu, master data user, master data kepsek dan master data guru. " + 
-      "Selain dari fitur-fitur diatas, terdapat fitur tambahan untuk membuat surat izin guru dan siswa yang akan meninggalkan sekolah ketika jam belajar sedang berlangsung.",
+      "Dimana pada halaman awal dashboard menampilkan grafik kunjungan tamu dan status tamu yang sudah berkunjung. " +
+      "Kemudian terdapat fitur berita acara penerimaan tamu, master data tamu, master data user, master data kepala sekolah, master data guru dan report. " +
+      "Selain dari fitur-fitur utama pencatatan tamu diatas, terdapat fitur tambahan untuk membuat surat izin guru dan siswa yang akan meninggalkan sekolah ketika jam belajar sedang berlangsung.",
       image: project2,
     },
     {
@@ -64,6 +65,15 @@ import project6 from "../../assets/img/project/project6.png"
       desc: "Desian ini dibuat menggunakan aplikasi web Figma, "+
       "dimana untuk beberapa assets yang digunakan merupakan assets berlisensi gratis yang tersedia di internet dan untuk bagian lainnya dibuat menggunakan tools yang tersedia pada Figma.",
       image: project6,
+    },
+    {
+      id: 7,
+      category: "Aplikasi Mobile",
+      totalLike: "690",
+      title: "Aplikasi Transaksi Penjualan (SICOFFEE)",
+      desc: "Aplikasi ini dibuat menggunakan flutter dengan bahasa pemrogrammannya adalah 'Dart' dan perangkat tambahan untuk pengembangan aplikasi menggunakan IDE (Integrated Development Environment) android studi, sementara untuk database yang digunakan menggunakan SQLite. "+
+      "Terdapat beberapa fitur dalam aplikasi tersebut diantaranya adalah tambah produk, update data produk, delete data produk, keranjang belanja, cetak struk, export pdf, dan history data penjualan.",
+      image: project7,
     },
   ]
 
